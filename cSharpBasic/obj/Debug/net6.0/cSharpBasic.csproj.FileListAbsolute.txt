@@ -1,0 +1,15 @@
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\bin\Debug\net6.0\cSharpBasic.exe
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\bin\Debug\net6.0\cSharpBasic.deps.json
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\bin\Debug\net6.0\cSharpBasic.runtimeconfig.json
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\bin\Debug\net6.0\cSharpBasic.dll
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\bin\Debug\net6.0\cSharpBasic.pdb
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.csproj.AssemblyReference.cache
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.AssemblyInfoInputs.cache
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.AssemblyInfo.cs
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.csproj.CoreCompileInputs.cache
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.dll
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\refint\cSharpBasic.dll
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.pdb
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\cSharpBasic.genruntimeconfig.cache
+C:\Users\BS982.BS-982.000\Desktop\Projects\cSharpBasic\cSharpBasic\obj\Debug\net6.0\ref\cSharpBasic.dll
