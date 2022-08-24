@@ -1,0 +1,86 @@
+Install NuGet packages:
+-----------------------------
+The following NuGet packages should be added to work with the SQL Server database and scaffolding. Run these commands in Package Manager Console:
+
+Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design -Version (latest version)
+Install-Package Microsoft.EntityFrameworkCore.Tools -(latest version)
+Install-Package Microsoft.EntityFrameworkCore.SqlServer (latest version)
+
+
+#inside  appsettings.json:
+---------------------------------------
+
+ "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection":"Server = BS-982\\MSSQLSERVER01; Database = Portfalio; Trusted_Connection = True;"
+ }
+ 
+ 
+ #Modal folder:  Project.cs
+ ----------------------
+ 
+ using System.ComponentModel.DataAnnotations;
+
+namespace Portfalio.Models
+{
+    public class Project
+    {
+        [Key]
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Language { get; set; }
+        public string Details { get; set; }
+
+    }
+}
+
+
+
+#Create Data folder inside root folder: ApplicationDbContext
+-------------------------------------------
+
+
+using Microsoft.EntityFrameworkCore;
+using Portfalio.Models;
+
+namespace Portfalio.Data
+{
+    public class ApplicationDbContext:DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+
+        }
+
+        public DbSet<Project> Project { get; set; }
+    }
+}
+
+
+#In program.cs:
+--------------------
+
+using Portfalio.Data;
+using Microsoft.EntityFrameworkCore;
+ 
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
+    builder.Configuration.GetConnectionString("DefaultConnection")));
+    
+    
+    
+    
+#in Package Manager Console:
+---------------------------------
+add-migration message
+update-database
+
+
+Done.
+
+
